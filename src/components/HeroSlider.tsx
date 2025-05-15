@@ -13,21 +13,33 @@ interface Slide {
 const slides: Slide[] = [
   {
     id: 1,
-    image: "https://source.unsplash.com/1488590528505-98d2b5aba04b/1600x900",
-    title: "Solutions informatiques professionnelles",
-    description: "Expertise technique et service personnalisé pour tous vos besoins informatiques"
+    image: "/lovable-uploads/be53b96c-d1b9-4ed5-a7be-5d199f4121ea.png",
+    title: "Installation d'antennes",
+    description: "Installation professionnelle d'équipements de communication pour une connectivité optimale"
   },
   {
     id: 2,
-    image: "https://source.unsplash.com/1498050108023-c5249f4df085/1600x900",
-    title: "Maintenance et réparation",
-    description: "Service rapide et efficace pour garder vos équipements en parfait état"
+    image: "/lovable-uploads/19887adc-8c7e-4b36-b05f-d501304ac9cc.png",
+    title: "Maintenance de serveurs",
+    description: "Service de maintenance de serveurs par des techniciens qualifiés"
   },
   {
     id: 3,
-    image: "https://source.unsplash.com/1518770660439-4636190af475/1600x900",
-    title: "Connectivité sans limites",
-    description: "Installation de réseaux Wi-Fi et kit Starlink pour une connexion optimale"
+    image: "/lovable-uploads/434a0c38-050c-43c5-a8ac-86a8be9605ec.png",
+    title: "Solutions informatiques complètes",
+    description: "Matériel informatique et maintenance pour particuliers et entreprises"
+  },
+  {
+    id: 4,
+    image: "/lovable-uploads/5dad7fa3-d81c-456d-9d45-798adf8c986e.png",
+    title: "Réparation de composants",
+    description: "Réparation minutieuse et professionnelle de tous vos composants électroniques"
+  },
+  {
+    id: 5,
+    image: "/lovable-uploads/801d5b44-8f1f-479d-9c54-5e6bc1e518aa.png",
+    title: "Dépannage informatique",
+    description: "Service de dépannage et réparation d'ordinateurs par nos experts"
   }
 ];
 
@@ -66,7 +78,7 @@ const HeroSlider: React.FC = () => {
             className="absolute inset-0 bg-cover bg-center bg-no-repeat"
             style={{ backgroundImage: `url(${slide.image})` }}
           ></div>
-          <div className="absolute inset-0 bg-black/50"></div>
+          <div className="absolute inset-0 bg-black/60"></div>
           
           <div className="absolute inset-0 flex items-center">
             <div className="container mx-auto px-4">
